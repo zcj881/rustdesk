@@ -100,7 +100,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["chaojie.myds.me:21116"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["chaojie.top:21116"];
 pub const PUBLIC_RS_PUB_KEY: &str = "KEAeCvJ6KstFy5tE6uHv0YPwFV9XAJskTEBLAQ9NVag=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
